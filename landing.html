@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="common/doucment_head.html"-->
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./pictures/mirror.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+<body>
+<!--#include virtual="common/nav_menu.html"-->
+<!--#include virtual="common/social_media.html"-->
+
+<div class="bg">
+  <a href="aboutUs.html">
+	<img src="pictures/snapOfTime.png" alt="Snap Of Time Photography" class="center">
+   </a>
+
+</div>
+
+
+
+<!--#include virtual="common/footer.html"-->
+</body>
+
+</html>
